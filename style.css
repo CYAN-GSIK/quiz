@@ -4,7 +4,7 @@ body {
 
 .grid {
    padding: 10px 50px 30px;
-   margin: 50px auto;
+   margin: 100px auto;
    width: 600px;
    background: #fff;
    border: 2px solid #eed0dc;
@@ -14,7 +14,7 @@ body {
 
 .grid h1 {
    color: #333;
-   font-size: 2.4em;
+   font-size: 2.7em;
    text-align: center;
    ;
 }
