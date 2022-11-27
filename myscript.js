@@ -47,10 +47,10 @@ function updateQuiz() {
    var choice = document.querySelectorAll('.btn');
 
    // 문제 출력
-   question.innerHTML = '문제' + idx + ') ' + quiz.questions[quiz.questionIndex].text;
+   question.innerHTML = '질문 ' + idx + ') ' + quiz.questions[quiz.questionIndex].text;
 
    // 선택 출력
-   for (var i = 0; i < 4; i++) {
+   for (var i = 0; i < 2; i++) {
       choice[i].innerHTML = quiz.questions[quiz.questionIndex].choice[i];
    }
 
@@ -90,8 +90,8 @@ function result() {
    quizDiv.innerHTML = txt;
 
    // 점수별 결과 텍스트
-   if (per = 50) {
-      txt += '<h2>둘 중 아무거나 골라서 키우세요!</h2>';
+   if (per == 50) {
+      txt += '<h2>둘 중 아무거나 골라서 키우세요!</h2>'
       quizDiv.innerHTML = txt;
    } else if (per >= 0 && per < 11) {
       txt += '<h2>그냥 키우지 마세요!</h2>'
