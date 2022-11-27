@@ -92,15 +92,19 @@ function result() {
    // 점수별 결과 텍스트
    if (per == 50) {
       txt += '<h2>둘 중 아무거나 골라서 키우세요!</h2>'
+      txt += '<h1>🐱🐶</h1>'
       quizDiv.innerHTML = txt;
    } else if (per >= 0 && per < 11) {
       txt += '<h2>그냥 키우지 마세요!</h2>'
+      txt += '<h1>😾</h1>'
       quizDiv.innerHTML = txt;
    } else if (per >= 11 && per < 50) {
       txt += '<h2>냥이를 키우세요!</h2>'
+      txt += '<h1>🐈</h1>'
       quizDiv.innerHTML = txt;
    } else if (per >= 51) {
       txt += '<h2>댕댕이를 키우세요!</h2>'
+      txt += '<h1>🐕</h1>'
       quizDiv.innerHTML = txt;
    }
 }
