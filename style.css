@@ -52,7 +52,7 @@ body {
    border: 1px solid #ffe3ed;
    border-radius: 15px;
    cursor: pointer;
-   transition: all .2s;
+   transition: all 0.2s;
 }
 
 .btn:nth-child(2n) {
